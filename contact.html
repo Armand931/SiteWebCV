@@ -38,14 +38,40 @@
         <div class="sec">
             <p>Mon profil vous interesse ?</p>
             <p>N'hésitez pas à me contacter à l'adresse suivante : <strong>armand.desire93[at]gmail.com</strong>.</p>
-            <p>Je vous répondrai dans les meilleurs délais</p>
+            <p>Ou bien remplissez ce <button class="button" data-modal="modalOne">formulaire.</button></p>
+            <div id="modalOne" class="modal">
+                <div class="modal-content">
+                    <div class="contact-form">
+                        <a class="close">&times;</a>
+                        <form action="/">
+                            <h2>Contactez-moi</h2>
+                            <div>
+                            <input class="name" type="text" name="name" placeholder="Nom" />
+                            <input class="fname" type="text" name="name" placeholder="Prénom" />
+                            <input type="text" name="name" placeholder="Email" />
+                            <input type="text" name="name" placeholder="Numéro de téléphone" />
+                            <input type="text" name="name" placeholder="Entreprise" />
+                            </div>
+                            <span>Message</span>
+                            <div>
+                            <textarea rows="4"></textarea>
+                            </div>
+                            <button type="submit" href="/">Envoyer</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <p>Je vous répondrai dans les meilleurs délais.</p>
         </div>
+            
 
     </section>
 
     <footer>
-        <p>Copyright 2021 Armand DÉSIRÉ - Toute reproduction interdite</p>
+        <p>Copyright 2021 - 2022 Armand DÉSIRÉ - Toute reproduction interdite</p>
 
     </footer>
+
+    <script src="formulaire.js"></script>
 </body>
 </html>
